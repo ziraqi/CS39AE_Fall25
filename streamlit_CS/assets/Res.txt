@@ -1,0 +1,1 @@
+put your_photo.jpg there; then set PHOTO_PATH = "assets/your_photo.jpg"
