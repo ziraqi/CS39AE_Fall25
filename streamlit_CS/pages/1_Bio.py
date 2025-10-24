@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 
 st.title("👋 My Bio")
 
@@ -18,7 +19,7 @@ FUN_FACTS = [
     "I'm learning Spanish to add on to my repertoire of languages and hope to become fluent one day.",
     "I want to build a tech startup that enables 3rd world countries to have better access to technology.",
 ]
-PHOTO_PATH = "profile.jpg"  # Put a file in repo root or set a URL
+PHOTO_PATH = "../profile.jpg"  # Put a file in repo root or set a URL
 
 # ---------- Debug Section (REMOVE AFTER TESTING) ----------
 st.write("🔍 **Debug Info:**")
