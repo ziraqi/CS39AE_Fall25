@@ -18,14 +18,14 @@ FUN_FACTS = [
     "I'm learning Spanish to add on to my repertoire of languages and hope to become fluent one day.",
     "I want to build a tech startup that enables 3rd world countries to have better access to technology.",
 ]
-PHOTO_PATH = "./assets/profile.jpg"  # Put a file in repo root or set a URL
+PHOTO_PATH = "profile.jpg"  # Put a file in repo root or set a URL
 
 # ---------- Layout ----------
 col1, col2 = st.columns([1, 2], vertical_alignment="center")
 
 with col1:
     try:
-        st.image(PHOTO_PATH, caption=NAME, use_container_width=True)
+        st.image(PHOTO_PATH, caption=NAME, width="auto")
     except Exception:
         st.info("Add a photo named `your_photo.jpg` to the repo root, or change PHOTO_PATH.")
 with col2:
